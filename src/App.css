@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container{
+  position: relative;
+  width: 100%;
+  display: flex;  
+}
+
+
+.container section{
+min-width: 100%;
+height: auto;
+height: 100vh;
+background-color: #f2f0eb;
+}
+.content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.h1intro{
+  font-size: 30rem;
+  color: #5579f9;
+}
+.h2intro{
+  font-size: 15rem;
+  color: rgb(39, 39, 39);
+  position: absolute;
+  bottom: 350px;
+
+}
+.h3intro{
+  font-size: 3rem;
+  color: #5579f9;
+  margin-right: 7rem;
+  position: absolute;
+  top: 550px;
+  ;
+}
+
+.about{display: flex;
+align-items: center;}
+
+.content2{
+  display: flex;
+  margin-left: 10rem;
+}
+
+.imgcontainer{
+  width: 25vw;
+  height: 65vh;
+  background-color: #5579f9;
+  border-radius: 3rem;
+}
+.h1About{
+  font-size: 4rem;
+}
+.abouttext{
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin-left: 5rem;
+}
+
+.content3{
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+
+.experience2{
+  width: 50vw;
+}
+.experience3{ 
+  display: flex;
+  margin-top: 10rem;
+}
+.experience4{
+  width: 35vw;
+}
+.experience5{
+  width: 35vw;
+  margin-left: 3rem;
+}
+
+.h2Experience{
+  font-size: 5rem;
+}
+
+.education1{
+  margin-top: 1rem;
+}
+.education2{
+  margin-top: 1rem;
+}
+
+.Design1{
+  display: flex;
+  width: 50vw;
+  margin-top: 8rem;
+}
+.designimg{
+  width: 50vw;
+  height: 60vh;
+  background-color: #5579f9;
+  margin-left: 5rem;
+} 
+
+
+.h2design{
+  font-size: 5rem;
+}
+
+.spandesign{
+  color: #5579f9;
+}
+
+.contactheader{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-right: 55rem;
+}
+
+.h1contact{
+font-size: 7rem;
+color: #5579f9;
+}
+
+.h3contact{
+font-size: 3rem;
+}
+
+
+.slider-wrapper{
+  position: relative;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+.slider{
+  display: flex;
+  aspect-ratio: 9.8 / 10;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+
+}
+
+.slider img{
+  flex: 1 0 ;
+  scroll-snap-align: start;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+}
+
+.contacticons{
+  margin-right: 76rem;
+  margin-top: 2rem;
+}
+.contactgithub{
+  display: flex;
+  align-items: center; 
+}
+.contactmail{
+  display: flex;
+  align-items:center;
+  
+}
+.contactgithub p a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+
+.contactmail p{
+  font-size: 1rem;
+  display: flex;
+  margin-left: 20px;
+}
+
+.contactgithub{
+  font-size: 1rem;
+  display: flex;
+list-style: none;
+
+}
+
+.contactimg{
+ margin-left: 55rem;
+ position: absolute;
+ top: 335px;
+}
+
